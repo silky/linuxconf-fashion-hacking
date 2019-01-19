@@ -1,0 +1,36 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.1.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: a3964d52013a40ac3ffd1f4d9810263b9d2b9511ec14629c7f5e7eb9455ec5bd
+
+name:           Talk-Fun
+version:        0.1.0.0
+category:       Web
+homepage:       https://github.com/silky/fashion/Talk-Fun#readme
+author:         Noon van der Silk
+maintainer:     noonsilk@gmail.com
+copyright:      Noon van der Silk
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+
+executable Talk-Fun
+  main-is: Main.hs
+  other-modules:
+      Paths_Talk_Fun
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+    , diagrams
+    , diagrams-cairo
+    , diagrams-contrib
+    , diagrams-lib
+    , palette
+    , random
+  default-language: Haskell2010
