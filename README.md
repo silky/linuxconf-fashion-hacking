@@ -14,7 +14,7 @@ stack build
 
 ### Running
 
-``
-`stack run -- -o fun.svg -w 800
+```
+stack run -- -o fun.svg -w 800
 ```
 
